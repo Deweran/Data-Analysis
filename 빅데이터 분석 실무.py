@@ -159,7 +159,6 @@ for x, val in zip(X_cols, model_rfr.feature_importances_): #모델에서 사용�
 
 #4) 분석 모형 평가
 #테스트 데이터로 회귀 모델을 평가해보자 (MAE, MSE, MAPE를 사용한다.)
-
 y_pred_lr = model_lr.predict(X_test_r_scaled)
 y_pred_svr = model_svr.predict(X_test_r_scaled)
 y_pred_rfr = model_rfr.predict(X_test_r_scaled)
