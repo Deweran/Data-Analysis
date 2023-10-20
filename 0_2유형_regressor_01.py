@@ -43,6 +43,7 @@ y_validation_pred = rf.predict(xt)
 
 # y_true ,y_pred 순서 help로 잘 확인 하시고 사용하셔요
 
+
 #mse 
 print('validation mse' ,mean_squared_error(yt,y_validation_pred))
 
