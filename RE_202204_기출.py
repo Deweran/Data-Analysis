@@ -43,6 +43,7 @@ from sklearn.ensemble import RandomForestClassifier
 model_r = RandomForestClassifier(n_estimators=100, max_depth=6, random_state = 120)
 model_r.fit(x_tr, y_tr)
 
+
 # assessment 
 from sklearn.metrics import f1_score 
 model_r_a = model_r.predict(x_val)
