@@ -42,6 +42,9 @@ from sklearn.ensemble import RandomForestRegressor
 model = RandomForestRegressor(max_depth = 8, n_estimators = 300, random_state = 120)
 model.fit(x_tr, y_tr)
 
+
+
+
 # hyper parameter tuning 
 #from sklearn.model_selection import GridSearchCV
 #parameters={'n_estimators':[50,100,300],'max_depth':[4,6,8]}
