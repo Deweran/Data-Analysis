@@ -43,6 +43,7 @@ x_tr, x_val, y_tr, y_val = train_test_split(x_train[num + obj], y_train[y].value
 # model 
 from sklearn.ensemble import RandomForestClassifier 
 model = RandomForestClassifier(n_estimators = 50, max_depth = 3, random_state = 123)
+
 model.fit(x_tr, y_tr)
 
 # assessment 
