@@ -42,6 +42,9 @@ df = pd.read_csv('https://raw.githubusercontent.com/Datamanim/datarepo/main/scip
 plt.hist(df)
 plt.show()
 
+
+
+
 print(shapiro(df))
 # 샤피로 검정시 p-value가 0.15 이므로 유의수준 5%에서 
 # 귀무가설("데이터는 정규성을 가진다")을 기각할 수 없다.
