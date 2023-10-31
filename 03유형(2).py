@@ -166,6 +166,7 @@ print(levene(before,after))
 
 from scipy.stats import ttest_rel
 print(ttest_rel(before,after))
+
 # 정규성 가짐 , 등분산성 가짐 -> 대응표본의 경우 등분산성이 파라미터에 영향을 주지않음, 
 # 대응표본 t 검정 결과 pvalue는 0.01로 유의수준 5%내에서 귀무가설을 기각한다 (전 후 평균은 같지 않다)
 
